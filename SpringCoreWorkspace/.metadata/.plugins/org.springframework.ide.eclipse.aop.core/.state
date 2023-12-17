@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springdaohib"/>
+<aop-project name="SpringCore"/>
+<aop-project name="SpringDAO"/>
+<aop-project name="springMVC"/>
+</aop-reference-model>

@@ -1,0 +1,13 @@
+package com.rays.form;
+
+public class Form {
+	
+	private String firstName;
+	private String lastName;
+	private String login;
+	private String password;
+	
+	private String addresss;
+	private String dob;
+
+}

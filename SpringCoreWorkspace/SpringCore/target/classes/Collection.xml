@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+  http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+	<bean name="myBean" class="com.rays.collection.MyBean">
+		<property name="list">
+			<list>
+				<value>one</value>
+				<value>two</value>
+			</list>
+		</property>
+
+		<property name="map">
+			<map>
+				<entry>
+					<key>
+						<value>key1</value>
+					</key>
+					<value>value1</value>
+				</entry>
+				<entry>
+					<key>
+						<value>key2</value>
+					</key>
+					<ref bean="dataSource" />
+				</entry>
+			</map>
+		</property>
+
+	</bean>
+
+	<bean name="dataSource" class="com.rays.collection.DataSource">
+		<property name="url" value="jdbc"></property>
+		<property name="user" value="sachin"></property>
+		<property name="password" value="sachin@123"></property>
+	</bean>
+</beans>

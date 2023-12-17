@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="sf"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Optional: Add your custom styles here -->
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <sf:form action="UserRegister" method="post" modelAttribute="form">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td><sf:input path="firstName" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><sf:input path="lastName" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th>Login</th>
+                <td><sf:input path="login" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><sf:input path="password" type="password" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td><sf:input path="dob" type="Date" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><sf:input path="address" class="form-control"/></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="submit" class="btn btn-success"></td>
+            </tr>
+        </table>
+    </sf:form>
+
+    <!-- Bootstrap JS and Popper.js scripts (required for some Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

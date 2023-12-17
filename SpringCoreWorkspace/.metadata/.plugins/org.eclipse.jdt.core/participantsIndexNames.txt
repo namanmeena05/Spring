@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\Dell\Desktop\SpringCoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2238499324.index
+\springMVC\src\main\resources
+C:\Users\LENOVO\OneDrive\Desktop\SpringCoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2238499324.index
+\springMVC\src\main\java
+C:\Users\LENOVO\OneDrive\Desktop\SpringCoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\845794910.index
+\springMVC\src\main\java
+C:\Users\Dell\Desktop\SpringCoreWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\845794910.index
+\springMVC\src\main\java

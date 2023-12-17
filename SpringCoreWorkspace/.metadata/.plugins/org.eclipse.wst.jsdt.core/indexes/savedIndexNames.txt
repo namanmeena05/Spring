@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\LENOVO\OneDrive\Desktop\SpringCoreWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2320829789.index
+1526793473.index
+845794910.index
+2600755524.index
+1563046078.index
+63627643.index
+619455457.index
